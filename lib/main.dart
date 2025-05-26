@@ -15,7 +15,14 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(title: Text("f"),),
         body: Column(
           children: [
-            Text("data")
+            Text("data"),
+            Row(
+              children: [
+                GestureDetector(
+                  child: Text("data"),
+                )
+              ],
+            )
           ],
         ),
       ),
